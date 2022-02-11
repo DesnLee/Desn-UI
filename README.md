@@ -12,8 +12,9 @@ npm install desn-ui   # yarn add desn-ui
 
 # 使用
 
-### 引入组件
+### 引入组件和样式文件
 ```javascript
+import 'desn-ui/lib/index.css';
 import { Button, Tabs, Tab, Switch, Dialog } from 'desn-ui';
 ```
 
