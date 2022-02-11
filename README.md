@@ -7,19 +7,18 @@
 # 安装
 
 ```shell
-npm install desn-ui   #yarn add desn-ui
+npm install desn-ui   # yarn add desn-ui
 ```
 
 # 使用
 
 ### 引入组件
 ```javascript
-import { Button, Tabs, Switch, Dialog } from 'desn-ui';
+import { Button, Tabs, Tab, Switch, Dialog } from 'desn-ui';
 ```
 
 ### 使用示例
 ```html
-
 <template>
   <div>
     <Button>这是一个按钮</Button>
@@ -27,12 +26,13 @@ import { Button, Tabs, Switch, Dialog } from 'desn-ui';
 </template>
 
 <script>
-import { Button, Tabs, Switch, Dialog } from "desn-ui"
+import { Button, Tabs, Tab, Switch, Dialog } from "desn-ui"
 
 export default {
   components : {
     Button,
     Tabs,
+    Tab,
     Switch,
     Dialog
   }
@@ -47,7 +47,7 @@ export default {
 
 &nbsp;
 
-为了打磨技术，本项目从组件功能代码，组件样式设计，包括你现在看到的这个官网，几乎没有采用第三方库，都是全程亲手编写。
+为了打磨技术，本项目从组件功能代码，组件样式设计，几乎没有采用第三方库，都是全程亲手编写。
 
 ***除非你是抱着看源代码的目的来的，否则不建议将此 UI 库用于生产环境。***
 
@@ -55,5 +55,5 @@ export default {
 
 **Tips：**
 
-- 历史提交信息较规范，你可以按提交的顺序逐个查看
+- 历史提交信息较规范，你可以按提交的顺序逐个查看（组件库发布前的历史提交请前往 [Desn-UI 官网仓库](https://github.com/DesnLee/Desn-UI-Website) 查看
 - 你也可以直接查看每个组件的源代码和示例，运行方法见 README.md。
