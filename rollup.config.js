@@ -1,7 +1,4 @@
 import vue from 'rollup-plugin-vue'
-// import esbuild from 'rollup-plugin-esbuild'
-// import scss from 'rollup-plugin-scss'
-// import dartSass from 'sass';
 import { terser } from "rollup-plugin-terser"
 import typescript from 'rollup-plugin-typescript2'
 import { nodeResolve } from '@rollup/plugin-node-resolve'
