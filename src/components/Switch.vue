@@ -52,7 +52,7 @@ $span-wh-large: $btn-h-large - $gap-large * 2;
     width: $btn-w-small;
     height: $btn-h-small;
     border-radius: calc(#{$btn-h-small} / 2);
-    box-shadow: inset 0 0 (2 * $gap-small) #40424455;
+    box-shadow: inset 0 0 (2 * $gap-small) #40424422;
 
     > .circle {
       left: $gap-small;
@@ -60,7 +60,7 @@ $span-wh-large: $btn-h-large - $gap-large * 2;
       width: $span-wh-small;
       height: $span-wh-small;
       border-radius: calc(#{$span-wh-small} / 2);
-      box-shadow: 0 0 (2 * $gap-small) #40424455;
+      box-shadow: 0 0 (2 * $gap-small) #40424422;
 
       &::after {
         width: calc(#{$btn-h-small} / 4);
@@ -88,7 +88,7 @@ $span-wh-large: $btn-h-large - $gap-large * 2;
     width: $btn-w-normal;
     height: $btn-h-normal;
     border-radius: calc(#{$btn-h-normal} / 2);
-    box-shadow: inset 0 0 (2 * $gap-normal) #40424455;
+    box-shadow: inset 0 0 (2 * $gap-normal) #40424422;
 
     > .circle {
       left: $gap-normal;
@@ -96,7 +96,7 @@ $span-wh-large: $btn-h-large - $gap-large * 2;
       width: $span-wh-normal;
       height: $span-wh-normal;
       border-radius: calc(#{$span-wh-normal} / 2);
-      box-shadow: 0 0 (2 * $gap-normal) #40424455;
+      box-shadow: 0 0 (2 * $gap-normal) #40424422;
 
       &::after {
         width: calc(#{$btn-h-normal} / 3);
@@ -124,7 +124,7 @@ $span-wh-large: $btn-h-large - $gap-large * 2;
     width: $btn-w-large;
     height: $btn-h-large;
     border-radius: calc(#{$btn-h-large} / 2);
-    box-shadow: inset 0 0 (2 * $gap-large) #40424455;
+    box-shadow: inset 0 0 (2 * $gap-large) #40424422;
 
     > .circle {
       left: $gap-large;
@@ -132,7 +132,7 @@ $span-wh-large: $btn-h-large - $gap-large * 2;
       width: $span-wh-large;
       height: $span-wh-large;
       border-radius: calc(#{$span-wh-large} / 2);
-      box-shadow: 0 0 (2 * $gap-large) #40424455;
+      box-shadow: 0 0 (2 * $gap-large) #40424422;
 
       &::after {
         width: calc(#{$btn-h-large} / 3);
@@ -200,7 +200,7 @@ $span-wh-large: $btn-h-large - $gap-large * 2;
 
 @keyframes shine {
   0% {
-    box-shadow: 0 0 0 #00000066;
+    box-shadow: 0 0 0 #00000033;
   }
   100% {
     box-shadow: 0 0 0 8px #00000000;

@@ -1,5 +1,5 @@
 /* eslint-disable */
-import './main.css'; // 引入样式
+import './index.css'; // 引入样式
 import { openDialog } from './components/openDialog';
 import Switch from './components/Switch.vue';
 import Button from './components/Button.vue';
