@@ -3,3 +3,5 @@ tsconfig.json
 rollup.config.js
 src
 .idea
+.prettierrc.yaml
+.prettierignore
